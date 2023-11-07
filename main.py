@@ -78,11 +78,6 @@ ORDER BY DESC(?population)"""
     for result in results["results"]["bindings"]:
         print(result["countryName"]["value"] + " - " + result["population"]["value"])
 
-
-
-def task3():
-    print()
-
 while (True):
     print("\n===============")
     print("Select task 1, 2 or 3\nEnter 0 to exit")
